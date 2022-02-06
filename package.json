@@ -1,0 +1,39 @@
+{
+  "name": "daydreamer",
+  "displayName": "Daydreamer",
+  "description": "Daydreamer, a dark colorful theme",
+
+  "version": "0.0.2",
+  "publisher": "codrin",
+  "author": {
+    "name": "Codrin",
+    "url": "https://www.linkedin.com/in/bulgariucodrin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codrinbulgariu/Daydreamer"
+  },
+  "icon": "images/logo-daydreamer.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "colorful",
+    "vscode"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Daydreamer Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Daydreamer Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
